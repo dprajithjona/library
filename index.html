@@ -43,19 +43,25 @@
     <footer>
         <p>&copy; 2023 College Library</p>
     </footer>
-
     <!-- Tawk.to Chat Service Script -->
-    <script type="text/javascript">
-        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-        (function(){
-        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-        s1.async=true;
-        s1.src='https://embed.tawk.to/655b42c1d600b968d315164b/1hfm7ph8o';
-        s1.charset='UTF-8';
-        s1.setAttribute('crossorigin','*');
-        s0.parentNode.insertBefore(s1,s0);
-        })();
-    </script>
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/655b42c1d600b968d315164b/1hfm7ph8o';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    
+    // Add the API key
+    s1.setAttribute('data-tawk-api-key', '7cf9f682dffa843659e6ae02cff2d787369120c0');
+    
+    // Customize the chat tool color to blue
+    s1.setAttribute('data-color', '#0000FF');
+    
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+</script>
 </body>
 </html>
 
